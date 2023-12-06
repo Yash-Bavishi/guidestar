@@ -1,0 +1,87 @@
+.stepContainer {
+    display: flex;
+    
+}
+
+/* Layout */
+.left {
+    width: 55vw;
+    height: 100vh;
+    padding-left: 4.7rem;
+    padding-top: 1.8rem;
+    padding-right: 2.5rem;
+}
+
+.left > nav{
+    font-weight: 400;
+    line-height: 0.75rem;
+}
+
+.form {
+    margin-top: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 21.87rem;
+}
+
+.formContainer > .title {
+    margin-top: 3.1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.formContainer > input {
+    width: 100%;
+}
+
+.code {
+    color: #ffffff;
+    width: 1fr;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.20rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    background-color: rgba(255,255,255,8%);
+    box-shadow: none;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    font-family: monospace;
+}
+
+.buttonWrapper {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.formContainer > .buttonWrapper > button {
+    margin-top: 0.7rem;
+    width: 100%;
+    opacity: 100%;
+}
+
+.formContainer > small {
+    opacity: 50%;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+.right {
+    color: white
+}
+
+pre {
+    text-wrap: wrap;
+    opacity: 52%;
+}
+
+.code {
+    background-color: rgba(255,255,255,0.08)
+}

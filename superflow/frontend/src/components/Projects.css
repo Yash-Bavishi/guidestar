@@ -1,0 +1,17 @@
+.projects {
+    margin-top: 1.125rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.projects > p {
+    width: 100%;
+}
+
+.projects > div {
+    display: flex;
+    align-items: flex-start;
+    gap: 2.5px;
+    width: 100%;
+}

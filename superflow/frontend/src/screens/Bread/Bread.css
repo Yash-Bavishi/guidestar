@@ -1,0 +1,39 @@
+.main {
+    width: 38.8125vw;
+    margin: auto;
+    margin-top: 3.25rem;
+}
+
+nav {
+    align-items: flex-start !important;
+}
+
+.blueButton {
+    width: 7.8125rem !important;
+}
+
+.hero {
+    margin-top: 3.25rem;
+}
+
+.tabs {
+    display: flex;
+    gap: 1rem;
+}
+
+.tab {
+    font-weight: 1rem;
+    opacity: 30%;
+}
+
+.tab:hover {
+    opacity: 100%;
+    border-bottom: 1px solid rgba(47, 89, 237, 1);
+    padding-bottom: 0.6875rem;
+}
+
+.tab-active {
+    color: rgba(47, 89, 237, 1);
+    border-bottom: 1px solid rgba(47, 89, 237, 1);
+    padding-bottom: 0.6875rem;
+}
