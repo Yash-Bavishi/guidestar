@@ -1,20 +1,22 @@
 /* Breadcrumb */
 
 .breadcrumb {
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    gap: 8px;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #ffffff;
 }
 
 .breadcrumbAlign {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
 }
 
 .breadcrumbAlign > span > svg {
-    padding-top: 3px;
+  padding-top: 3px;
 }
+

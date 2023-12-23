@@ -1,0 +1,34 @@
+.task {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.task > h4 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+
+.task-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.task-details_left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.task-details_left > p {
+  opacity: 50%;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.task > hr {
+  margin-top: 1rem;
+}

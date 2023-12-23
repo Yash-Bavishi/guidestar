@@ -1,78 +1,78 @@
 /* Stepper numbers CSS */
 
 .stepperLayout {
-  max-width: 100vw; 
-  max-height: 100vh; 
-  display: flex; 
-  gap: 0.48rem; 
-  align-items: center
+  color: #ffffff;
+  max-width: 100vw;
+  max-height: 100vh;
+  display: flex;
+  gap: 0.48rem;
+  align-items: center;
 }
 
 .stepperNumber {
-    display: block;
-    width: 2.55rem;
-    height: 1.49rem;
-    border-radius: 3.25rem;
-    text-align: center;
-    padding-top: 0.25rem;
-    font-size: 0.85rem;
-    font-weight: 400;
+  display: block;
+  width: 2.55rem;
+  height: 1.49rem;
+  border-radius: 3.25rem;
+  text-align: center;
+  padding-top: 0.25rem;
+  font-size: 0.85rem;
+  font-weight: 400;
 }
 
 .stepperNumberActive {
-    background-color: rgba(47, 89, 237, 1);
-    opacity: 100%;
+  background-color: rgba(47, 89, 237, 1);
+  opacity: 100%;
 }
 
 .stepperNumberInactive {
-    background-color: rgba(255, 255, 255, 0.15);
-    opacity: 65%;
+  background-color: rgba(255, 255, 255, 0.15);
+  opacity: 65%;
 }
 
 .completeNumber {
-    display: block;
-    width: 2.65rem;
-    height: 1.56rem;
-    border-radius: 3.25rem;
-    text-align: center;
-    background-color: rgba(44, 185, 92, 1);
-    text-align: center;
-    padding-top: 0.30rem;
+  display: block;
+  width: 2.65rem;
+  height: 1.56rem;
+  border-radius: 3.25rem;
+  text-align: center;
+  background-color: rgba(44, 185, 92, 1);
+  text-align: center;
+  padding-top: 0.3rem;
 }
 
 /* Stepper Bars CSS */
 .progress {
-  max-width: 100vw; 
-  max-height: 100vh; 
-  display: flex; 
+  max-width: 100vw;
+  max-height: 100vh;
+  display: flex;
   gap: 2.7px;
-  align-items: center
+  align-items: center;
 }
 
 .miniStepperHeight {
-    height: 0.5rem;
-    border: 1px solid;
-    border-radius: 25rem;
-    transform: rotate(180deg);
-    display: block;
-} 
+  height: 0.5rem;
+  border: 1px solid;
+  border-radius: 25rem;
+  transform: rotate(180deg);
+  display: block;
+}
 
 .halfStepperHeight {
-    height: 0.7rem;
-    border: 1px solid;
-    border-radius: 25rem;
-    transform: rotate(180deg);
-    display: block
-  }
-
+  height: 0.7rem;
+  border: 1px solid;
+  border-radius: 25rem;
+  transform: rotate(180deg);
+  display: block;
+}
 
 .fullStepperHeight {
-    height: 1rem;
-    border: 1px solid;
-    border-radius: 25rem;
-    transform: rotate(180deg);
-    display: block;
-  }
+  height: 1rem;
+  border: 1px solid;
+  border-radius: 25rem;
+  transform: rotate(180deg);
+  display: block;
+}
 
 .complete {
   border-color: rgba(44, 185, 92, 1);
@@ -81,10 +81,11 @@
   border-color: rgba(47, 89, 237, 1);
 }
 .inactive {
-  border-color: rgba(255,255,255,0.15);
+  border-color: rgba(255, 255, 255, 0.15);
 }
 
 .chevron-right {
-    text-align: center;
-    align-self: center;
+  text-align: center;
+  align-self: center;
 }
+

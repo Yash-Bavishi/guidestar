@@ -1,14 +1,20 @@
-
 /* Login */
 
+.login {
+  position: relative;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
 .status {
+  color: #ffffff;
   position: absolute;
   margin-left: 2rem;
   margin-top: 1.2rem;
   color: #ffffff;
   font-size: 0.875rem;
   line-height: 1.05rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   opacity: 0.5;
 }
@@ -32,7 +38,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #ffffff;
   margin-bottom: 125px;
 }
@@ -59,14 +65,22 @@
   position: absolute;
   text-align: center;
   width: 100%;
-  bottom: 0;
+  bottom: -15px;
   transform: translateY(20%);
-  font-size: 13.50vw;
-  background: linear-gradient(180deg, rgba(255,255,255,0.2), rgba(255,255,255,0));
+  font-size: 13.5vw;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   letter-spacing: -0.05em;
+}
+
+.blueButton {
+  width: 100%;
 }

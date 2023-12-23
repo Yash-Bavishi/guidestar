@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   box-shadow: none;
-  overflow: hidden;
-  color: #ffffff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 body {
-  background-color:#000000 ;
+  background-color: #000000;
 }
 
 .title {
@@ -26,10 +24,10 @@ input {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   border: none;
-  border-radius: 0.20rem;
+  border-radius: 0.2rem;
   font-size: 0.875rem;
   font-weight: 400;
-  background-color: rgba(255,255,255,8%);
+  background-color: rgba(255, 255, 255, 8%);
   box-shadow: none;
 }
 
@@ -39,12 +37,12 @@ input:focus {
 }
 
 .blueButton {
-  min-width: 5.62rem;
+  /*  min-width: 5.62rem;
+  min-height: 2rem; */
   min-height: 2.06rem;
-  min-height: 2rem;
   border: none;
-  border-radius: 0.20rem;
-  background-color: #2F59ED;
+  border-radius: 0.2rem;
+  background-color: #2f59ed;
   color: #ffffff;
   cursor: pointer;
   text-align: center;
@@ -58,8 +56,8 @@ input:focus {
   min-height: 2.06rem;
   min-height: 2rem;
   border: 1px solid;
-  border-radius: 0.20rem;
-  border-color: #2F59ED;
+  border-radius: 0.2rem;
+  border-color: #2f59ed;
   opacity: 100%;
   background-color: #000000;
   color: #ffffff;
@@ -69,7 +67,8 @@ input:focus {
 
 a {
   text-decoration: none;
-  opacity: 35%;
+  opacity: 50%;
+  color: #ffffff;
 }
 
 a:hover {

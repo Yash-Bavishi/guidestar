@@ -1,0 +1,39 @@
+[
+  {
+    "_desc": "Employee User Credential",
+    "_used_by": "Flutter && Web",
+    "email": "String",
+    "password": "String",
+    "name": "String {Regex email_username}",
+    "last_login": "date",
+    "status": "Psudo-Boolean"
+  },
+  {
+    "_desc": "Project Info",
+    "_used_by": "Web",
+    "name": "String",
+    "creator_id": "Object(user_id)",
+    "collborators": "Array[user_id, creator_id]",
+    "archived_index": "false (byDefault)",
+    "api_key": "MELEGEND",
+    "build_versions": "Array(build_version)"
+  },
+  {
+    "_desc": "Commnet Collection",
+    "_used_by": "send by mobile | view by web",
+    "widget_id": "String",
+    "content": "text content",
+    "user_id": "Token",
+    "project_id": "project_id",
+    "status": "complete | inprogress | not touched",
+    "priroty": "red green yellow",
+    "screenshot": "URL",
+    "build_version": "Float"
+  },
+  {
+    "_desc": "Screenshot Collection",
+    "_id": "new Object(id)",
+    "project_id": "new Object(id)",,
+    "screenshot_data": "16mb (Binary Data)"
+  }
+]

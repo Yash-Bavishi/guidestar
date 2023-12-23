@@ -1,0 +1,40 @@
+.user {
+  position: absolute;
+  bottom: 1.25rem;
+  left: 1.25rem;
+  display: flex;
+  gap: 0.875rem;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+#user_alpha {
+  background: linear-gradient(#e66465, #9198e5);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+}
+
+.user > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.user > div > p {
+  font-weight: 800;
+}
+
+.user_logout-link {
+  display: flex;
+  gap: 0.2rem;
+  justify-self: flex-start;
+  align-items: flex-start;
+  opacity: 0.35;
+}
+
+.user_logout-link > a {
+  opacity: 100% !important;
+}

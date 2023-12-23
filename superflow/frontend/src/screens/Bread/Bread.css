@@ -1,39 +1,43 @@
 .main {
-    width: 38.8125vw;
-    margin: auto;
-    margin-top: 3.25rem;
+  color: #ffffff;
+  min-width: 43.75rem;
+  width: 38.8125vw;
+  margin: auto;
+  margin-top: 3.25rem;
 }
 
 nav {
-    align-items: flex-start !important;
+  align-items: flex-start !important;
 }
 
-.blueButton {
-    width: 7.8125rem !important;
+.bread-blueButton {
+  width: 7.8125rem;
 }
 
 .hero {
-    margin-top: 3.25rem;
+  margin-top: 3.25rem;
 }
 
 .tabs {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .tab {
-    font-weight: 1rem;
-    opacity: 30%;
+  font-weight: 1rem;
+  opacity: 30%;
 }
 
 .tab:hover {
-    opacity: 100%;
-    border-bottom: 1px solid rgba(47, 89, 237, 1);
-    padding-bottom: 0.6875rem;
+  opacity: 100%;
+  color: rgba(47, 89, 237, 1);
+  border-bottom: 1px solid rgba(47, 89, 237, 1);
+  padding-bottom: 0.6875rem;
 }
 
 .tab-active {
-    color: rgba(47, 89, 237, 1);
-    border-bottom: 1px solid rgba(47, 89, 237, 1);
-    padding-bottom: 0.6875rem;
+  color: rgba(47, 89, 237, 1);
+  opacity: 100%;
+  border-bottom: 1px solid rgba(47, 89, 237, 1);
+  padding-bottom: 0.6875rem;
 }

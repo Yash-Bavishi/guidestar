@@ -1,0 +1,45 @@
+.taskbar {
+  margin-top: 3.25rem;
+  display: flex;
+  gap: 1.75rem;
+  font-size: 0.875rem;
+}
+
+.taskbar > span > div {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  opacity: 30%;
+}
+
+.normal-text {
+  color: #4c4c4c;
+  opacity: 30%;
+}
+
+.active-text {
+  color: #44efda;
+  opacity: 100% !important;
+  border-bottom: 2px solid #44efda;
+  padding-bottom: 1.06rem;
+}
+
+.taskbar > span > div:active {
+  color: #44efda;
+  border-bottom: 2px solid #44efda;
+  padding-bottom: 1.06rem;
+}
+
+.taskbar > span > div:hover {
+  color: #44efda;
+  border-bottom: 2px solid #44efda;
+  padding-bottom: 1.06rem;
+}
+
+.taskbar > span > div:hover > p {
+  opacity: 100%;
+}
+
+.taskbar > span > div:active > p {
+  opacity: 100%;
+}

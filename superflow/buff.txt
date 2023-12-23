@@ -1,0 +1,10 @@
+Algorithm for comment creation
+	user needs a user_id (received from JWT) and project_id (recevied from request ?)
+	projectMiddleware must also exist
+	from project_id it checks for screenshot uri
+		if screenshot uri is same as one of the uri in database
+			it appends the "context"
+		else
+			create a new "comment document"
+		then fields are setup from request
+	 
